@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+   <children>
+      <AnchorPane prefHeight="394.0" prefWidth="283.0" style="-fx-background-color: fed700;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="45.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@yellow_computer.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="22.0" layoutY="250.0" text="Support@karunya.edu.in">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="356.0">
+         <children>
+            <Label layoutX="33.0" layoutY="56.0" text="USERNAME">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font></Label>
+            <TextField fx:id="tf_username" layoutX="128.0" layoutY="52.0" />
+            <Label layoutX="33.0" layoutY="99.0" text="PASSWORD">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_password" layoutX="128.0" layoutY="95.0" />
+            <Label layoutX="39.0" layoutY="200.0" text="NEW STUDENT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="rb_yes" layoutX="220.0" layoutY="180.0" mnemonicParsing="false" text="YES">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="rb_no" layoutX="220.0" layoutY="223.0" mnemonicParsing="false" text="NO">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="button_signup" layoutX="111.0" layoutY="269.0" mnemonicParsing="false" style="-fx-background-color: FED700;" text="SIGN-UP">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="29.0" layoutY="344.0" text="REGISTERED STUDENT">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_log_in" layoutX="202.0" layoutY="340.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="LOG-IN" textFill="#0c05e3" underline="true">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</HBox>

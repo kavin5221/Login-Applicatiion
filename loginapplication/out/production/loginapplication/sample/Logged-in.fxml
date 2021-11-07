@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoggedinController">
+   <children>
+      <Label fx:id="lable_portal" layoutX="103.0" layoutY="127.0" prefHeight="52.0" prefWidth="394.0" text="WELCOME TO ES STUDENT PORTAL" textFill="#0bc7dc">
+         <font>
+            <Font name="Wingdings 3" size="24.0" />
+         </font></Label>
+      <Label fx:id="lable_welcome" alignment="CENTER" layoutX="129.0" layoutY="22.0" opacity="0.69" prefHeight="52.0" prefWidth="327.0" style="-fx-background-color: #e31030;" text="HOME PAGE" textFill="#010101">
+         <font>
+            <Font name="Wingdings 3" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" layoutX="200.0" layoutY="274.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="180.0" style="-fx-background-color: FED700;" text="LOG-OUT" textFill="#ee1010">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
